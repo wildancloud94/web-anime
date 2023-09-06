@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index - Anime Website</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="lightbox.min.css">
+  <script src="lightbox-plus-jquery.min.js"></script>
+
+</head>
+<body>
+
+  <header>
+    <h1>Anime Kingdom</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">List Anime</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="List-anime">
+    <h2>List Anime</h2>
+    <div class="card-container">
+      <div class="anime-card">
+        <a href="anime1.jpg" data-lightbox="List-anime" data-title="My Lightbox">
+        <img src="anime1.jpg" alt="Anime 1" width="300px">
+        </a>
+        <h3>Boruto Next Generation</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, iste suscipit. Cupiditate fugiat animi quasi nemo aspernatur. Consequuntur, quaerat sequi dolore iste incidunt earum minus, obcaecati porro et ut expedita.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="anime-card">
+        <a href="anime2.jpg" data-lightbox="List-anime" data-title="My Lightbox">
+        <img src="anime2.jpg" alt="Anime 2" width="300px">
+        </a>
+        <h3>One Piece</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, incidunt iure consequuntur assumenda odit, quasi accusamus labore ipsam sapiente mollitia rerum in ipsa, eveniet consectetur vel. Iste alias maxime enim.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="anime-card">
+        <a href="anime3.jpg" data-lightbox="List-anime" data-title="My Lightbox">
+        <img src="anime3.jpg" alt="Anime 3" width="300px">
+        </a>
+        <h3>Kimetsu No Yaiba</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, iste suscipit. Cupiditate fugiat animi quasi nemo aspernatur. Consequuntur, quaerat sequi dolore iste incidunt earum minus, obcaecati porro et ut expedita.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Anime Kingdom. By IT Coding Club</p>
+  </footer>
+  
+  <script>
+    lightbox.option({
+      'resizeDuration' : 200,
+      'wrapAround' : true
+    })
+  </script>
+
+</body>
+</html>
